@@ -3,9 +3,9 @@
 End-to-end ML project for classifying loan applicants into **low-risk (0)** vs **high-risk (1)**.
 This scaffold includes:
 - Data preprocessing & feature engineering
-- EDA template
-- Multiple models (Logistic Regression, Random Forest, XGBoost if available)
-- Evaluation (classification report, ROC-AUC, confusion matrix)
+- EDA notebook
+- Multiple models (Logistic Regression, Random Forest, XGBoost & Gradient Boost)
+- Evaluation (ROC-AUC, confusion matrix)
 - Saved pipeline
 - Streamlit app for interactive scoring
 
@@ -16,9 +16,12 @@ credit_risk_project/
 │  └─ streamlit_app.py
 ├─ data/
 │  └─ credit_risk_dataset.csv
+|  └─ test_credit_risk_dataset.csv
 ├─ models/
+│  └─ gradient_boosting_pipeline.joblib
+│  └─ xgboost_pipeline.joblib
 ├─ notebooks/
-│  └─ eda_template.py
+│  └─ EDA.ipynb
 ├─ reports/
 ├─ src/
 │  ├─ __init__.py
